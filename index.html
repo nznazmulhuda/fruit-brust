@@ -44,6 +44,7 @@
 						colors: {
 							clifford: "#da373d",
 							theme: "#F85559",
+							title: "#121212",
 						},
 					},
 				},
@@ -376,11 +377,24 @@
 
 			<!-- Deal of the day -->
 			<section class="container mx-auto">
-				<div class="w-full h-[50vh] flex flex-col gap-10 lg:flex-row items-center justify-between">
+				<div
+					class="w-full mt-[20%] flex flex-col gap-10 lg:flex-row items-center justify-between"
+				>
 					<!-- side content -->
 					<div>
-						<h1 class="lato font-extrabold text-center lg:text-left text-5xl text-black mb-6">Deal of the day</h1>
-						<p class="w-2/3 text-center mx-auto lg:mx-0 lg:text-left disc lato text-lg font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p> 
+						<h1
+							class="lato font-extrabold text-center lg:text-left text-5xl text-black mb-6"
+						>
+							Deal of the day
+						</h1>
+						<p
+							class="w-2/3 text-center mx-auto lg:mx-0 lg:text-left disc lato text-lg font-medium"
+						>
+							Contrary to popular belief, is not simply random
+							text. It has roots in a piece of classical Latin
+							literature from 45 BC, making it over 2000 years
+							old.
+						</p>
 					</div>
 
 					<!-- timer -->
@@ -419,6 +433,580 @@
 									<span style="--value: 36"></span>
 								</span>
 								sec
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- fruits card section  -->
+			<section class="container mx-auto mt-20 lg:mt-32">
+				<div class="grid grid-cols-1 gap-2 lg:grid-cols-4">
+					<!-- card 1 -->
+					<div
+						class="card border w-[90%] bg-base-100 rounded-xl shadow-2xl"
+					>
+						<!-- card image -->
+						<figure class="px-10 pt-10">
+							<img
+								src="./images/fruit6.png"
+								alt="Shoes"
+								class="rounded-xl"
+							/>
+						</figure>
+						<!-- card content -->
+						<div class="card-body items-center text-center">
+							<h2
+								class="card-title text-title text-2xl font-bold lato"
+							>
+								12.90$ - 18.85$
+							</h2>
+
+							<div class="divider"></div>
+
+							<p class="lato disc text-lg font-medium mb-2">
+								Apples
+							</p>
+
+							<!-- ratting -->
+							<div class="rating mb-2">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+							</div>
+
+							<div class="card-actions">
+								<!-- You can open the modal using ID.showModal() method -->
+								<button
+									class="btn text-theme font-bold lato text-lg"
+									onclick="my_modal_1.showModal()"
+								>
+									Details
+								</button>
+								<dialog id="my_modal_1" class="modal">
+									<div class="modal-box w-11/12 max-w-5xl">
+										<div class="card">
+											<figure class="px-10 pt-10">
+												<img
+													src="./images/fruit6.png"
+													alt="Shoes"
+													class="rounded-xl"
+												/>
+											</figure>
+											<div
+												class="card-body items-center text-center"
+											>
+												<h2
+													class="card-title text-title text-2xl font-bold lato"
+												>
+													12.90$ - 18.85$
+												</h2>
+
+												<p
+													class="lato disc text-lg font-medium mb-2"
+												>
+													Apples
+												</p>
+
+												<!-- ratting -->
+												<div class="rating mb-2">
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+														checked
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+												</div>
+
+												<div class="card-actions">
+													<div class="modal-action">
+														<form method="dialog">
+															<button
+																class="btn border-theme hover:bg-theme hover:text-white text-theme font-bold text-lg"
+															>
+																Close
+															</button>
+															<button
+																class="btn bg-theme hover:bg-white hover:border-theme text-lg text-white hover:text-theme font-bold"
+															>
+																Buy now
+															</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</dialog>
+							</div>
+						</div>
+					</div>
+					<!-- card 2 -->
+					<div
+						class="card border w-[90%] bg-base-100 rounded-xl shadow-2xl"
+					>
+						<!-- card image -->
+						<figure class="px-10 pt-10">
+							<img
+								src="./images/fruit7.png"
+								alt="Shoes"
+								class="rounded-xl"
+							/>
+						</figure>
+						<!-- card content -->
+						<div class="card-body items-center text-center">
+							<h2
+								class="card-title text-title text-2xl font-bold lato"
+							>
+								12.90$ - 18.85$
+							</h2>
+
+							<div class="divider"></div>
+
+							<p class="lato disc text-lg font-medium mb-2">
+								Orange
+							</p>
+
+							<!-- ratting -->
+							<div class="rating mb-2">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+							</div>
+
+							<div class="card-actions">
+								<!-- You can open the modal using ID.showModal() method -->
+								<button
+									class="btn text-theme font-bold lato text-lg"
+									onclick="my_modal_2.showModal()"
+								>
+									Details
+								</button>
+								<dialog id="my_modal_2" class="modal">
+									<div class="modal-box w-11/12 max-w-5xl">
+										<div class="card">
+											<figure class="px-10 pt-10">
+												<img
+													src="./images/fruit7.png"
+													alt="Shoes"
+													class="rounded-xl"
+												/>
+											</figure>
+											<div
+												class="card-body items-center text-center"
+											>
+												<h2
+													class="card-title text-title text-2xl font-bold lato"
+												>
+													12.90$ - 18.85$
+												</h2>
+
+												<p
+													class="lato disc text-lg font-medium mb-2"
+												>
+													Orange
+												</p>
+
+												<!-- ratting -->
+												<div class="rating mb-2">
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+														checked
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+												</div>
+
+												<div class="card-actions">
+													<div class="modal-action">
+														<form method="dialog">
+															<button
+																class="btn border-theme hover:bg-theme hover:text-white text-theme font-bold text-lg"
+															>
+																Close
+															</button>
+															<button
+																class="btn bg-theme hover:bg-white hover:border-theme text-lg text-white hover:text-theme font-bold"
+															>
+																Buy now
+															</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</dialog>
+							</div>
+						</div>
+					</div>
+					<!-- card 3 -->
+					<div
+						class="card border w-[90%] bg-base-100 rounded-xl shadow-2xl"
+					>
+						<!-- card image -->
+						<figure class="px-10 pt-10">
+							<img
+								src="./images/fruit8.png"
+								alt="Shoes"
+								class="rounded-xl"
+							/>
+						</figure>
+						<!-- card content -->
+						<div class="card-body items-center text-center">
+							<h2
+								class="card-title text-title text-2xl font-bold lato"
+							>
+								12.90$ - 18.85$
+							</h2>
+
+							<div class="divider"></div>
+
+							<p class="lato disc text-lg font-medium mb-2">
+								Red Dragon
+							</p>
+
+							<!-- ratting -->
+							<div class="rating mb-2">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+							</div>
+
+							<div class="card-actions">
+								<!-- You can open the modal using ID.showModal() method -->
+								<button
+									class="btn text-theme font-bold lato text-lg"
+									onclick="my_modal_3.showModal()"
+								>
+									Details
+								</button>
+								<dialog id="my_modal_3" class="modal">
+									<div class="modal-box w-11/12 max-w-5xl">
+										<div class="card">
+											<figure class="px-10 pt-10">
+												<img
+													src="./images/fruit8.png"
+													alt="Shoes"
+													class="rounded-xl"
+												/>
+											</figure>
+											<div
+												class="card-body items-center text-center"
+											>
+												<h2
+													class="card-title text-title text-2xl font-bold lato"
+												>
+													12.90$ - 18.85$
+												</h2>
+
+												<p
+													class="lato disc text-lg font-medium mb-2"
+												>
+													Red Dragon
+												</p>
+
+												<!-- ratting -->
+												<div class="rating mb-2">
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+														checked
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+												</div>
+
+												<div class="card-actions">
+													<div class="modal-action">
+														<form method="dialog">
+															<button
+																class="btn border-theme hover:bg-theme hover:text-white text-theme font-bold text-lg"
+															>
+																Close
+															</button>
+															<button
+																class="btn bg-theme hover:bg-white hover:border-theme text-lg text-white hover:text-theme font-bold"
+															>
+																Buy now
+															</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</dialog>
+							</div>
+						</div>
+					</div>
+					<!-- card 4 -->
+					<div
+						class="card border w-[90%] bg-base-100 rounded-xl shadow-2xl"
+					>
+						<!-- card image -->
+						<figure class="px-10 pt-10">
+							<img
+								src="./images/fruit9.png"
+								alt="Shoes"
+								class="rounded-xl"
+							/>
+						</figure>
+						<!-- card content -->
+						<div class="card-body items-center text-center">
+							<h2
+								class="card-title text-title text-2xl font-bold lato"
+							>
+								12.90$ - 18.85$
+							</h2>
+
+							<div class="divider"></div>
+
+							<p class="lato disc text-lg font-medium mb-2">
+								Banana
+							</p>
+
+							<!-- ratting -->
+							<div class="rating mb-2">
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+									checked
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+								<input
+									type="radio"
+									name="rating-2"
+									class="mask mask-star-2 bg-orange-400"
+								/>
+							</div>
+
+							<div class="card-actions">
+								<!-- You can open the modal using ID.showModal() method -->
+								<button
+									class="btn text-theme font-bold lato text-lg"
+									onclick="my_modal_4.showModal()"
+								>
+									Details
+								</button>
+								<dialog id="my_modal_4" class="modal">
+									<div class="modal-box w-11/12 max-w-5xl">
+										<div class="card">
+											<figure class="px-10 pt-10">
+												<img
+													src="./images/fruit9.png"
+													alt="Shoes"
+													class="rounded-xl"
+												/>
+											</figure>
+											<div
+												class="card-body items-center text-center"
+											>
+												<h2
+													class="card-title text-title text-2xl font-bold lato"
+												>
+													12.90$ - 18.85$
+												</h2>
+
+												<p
+													class="lato disc text-lg font-medium mb-2"
+												>
+													Banana
+												</p>
+
+												<!-- ratting -->
+												<div class="rating mb-2">
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+														checked
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+													<input
+														type="radio"
+														name="rating-2"
+														class="mask mask-star-2 bg-orange-400"
+													/>
+												</div>
+
+												<div class="card-actions">
+													<div class="modal-action">
+														<form method="dialog">
+															<button
+																class="btn border-theme hover:bg-theme hover:text-white text-theme font-bold text-lg"
+															>
+																Close
+															</button>
+															<button
+																class="btn bg-theme hover:bg-white hover:border-theme text-lg text-white hover:text-theme font-bold"
+															>
+																Buy now
+															</button>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</dialog>
 							</div>
 						</div>
 					</div>
